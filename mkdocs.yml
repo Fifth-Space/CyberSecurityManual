@@ -28,3 +28,8 @@ nav:
   - 主页:
     - index.md
     - next.md
+  - 通识课:
+    - general/index.md 
+    - 通识核心课: general/core.md
+      
+    
