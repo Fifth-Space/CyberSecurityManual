@@ -24,16 +24,6 @@ theme:
   palette:
     - scheme: default
 
-plugins:
-  - search
-  #- heti:
-  #    extra_skipped_class:
-  #      - arithmatex
-  - turing_changelog
-  - turing_contributors
-  - turing_evaluations
-  - turing_outdate_warning
-
 nav:
   - 主页:
     - index.md
