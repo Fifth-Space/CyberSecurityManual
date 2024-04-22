@@ -7,7 +7,7 @@ theme:
     logo: material/notebook-outline
     repo: fontawesome/brands/github
     edit: material/pencil
-  custom_dir: overrides
+  #custom_dir: overrides
   favicon: images/icon.png
   features:
     - content.code.annotate
