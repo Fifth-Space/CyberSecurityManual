@@ -19,7 +19,7 @@ jobs:
       - name: Install TuringPlugins
         run: |
           git clone https://github.com/Fifth-Space/mkdocs_plugins.git
-          cd mdPlugins
+          cd mkdocs_plugins
           pip install -e .
           cd ..
       - run: mkdocs gh-deploy --force
