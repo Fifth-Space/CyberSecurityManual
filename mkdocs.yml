@@ -26,9 +26,9 @@ theme:
 
 plugins:
   - search
-  - heti:
-      extra_skipped_class:
-        - arithmatex
+  #- heti:
+  #    extra_skipped_class:
+  #      - arithmatex
   - turing_changelog
   - turing_contributors
   - turing_evaluations
