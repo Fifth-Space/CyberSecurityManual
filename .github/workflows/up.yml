@@ -17,4 +17,9 @@ jobs:
           python-version: 3.x
       - run: pip install -r requirements.txt
       - name: Install TuringPlugins
+        run: |
+          git clone https://github.com/wandering-the-earth/mdPlugins.git
+          cd TuringPlugins
+          pip install -e .
+          cd ..
       - run: mkdocs gh-deploy --force
